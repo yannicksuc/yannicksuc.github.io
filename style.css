@@ -11,5 +11,6 @@ p
 
 #rectangle{
     height: 68px;
+	width: 200px;
     background:blue;
 }
