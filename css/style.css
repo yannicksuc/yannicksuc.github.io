@@ -9,7 +9,7 @@
 nav ul a,
 nav .brand-logo {
   color: #444;
-  background: url('image/logo.png') no-repeat;
+  background: url('images/logo.png') no-repeat;
   background-size:contain;
 }
 
