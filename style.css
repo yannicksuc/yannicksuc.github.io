@@ -1,4 +1,15 @@
+@font-face {
+    font-family: avenir;
+    src: url(font/avenir.otf);
+}
+
 p
 {
+	font-family : avenir;
     color: blue;
+}
+
+#rectangle{
+    height: 68px;
+    background:blue;
 }
