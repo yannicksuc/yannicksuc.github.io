@@ -5,8 +5,9 @@
 
 p
 {
-	font-family : avenir;
+	font-family : avenir, sans-serif;
     color: blue;
+	text-align : center;
 }
 
 #rectangle{
