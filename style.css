@@ -3,15 +3,20 @@
     src: url(font/Avenir.otf);
 }
 
-p
+body
+{
+	background-color : #bdc3c7;
+}
+
+h1
 {
 	font-family : avenir, sans-serif;
-    color: blue;
+	color : #bdc3c7
 	text-align : center;
 }
 
-#rectangle{
+#toprectangle{
     height: 68px;
 	width: 200px;
-    background:blue;
+    background-color: blue;
 }
