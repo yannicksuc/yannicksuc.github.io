@@ -1,46 +1,104 @@
 @font-face {
-    font-family: avenir;
-    src: url(font/avenir.otf);
-}
+    font-family: 'latoregular';
+    src: url('fonts/lato-regular-webfont.woff2') format('woff2'),
+         url('fonts/lato-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
-div {
-    display: block;
 }
+@font-face {
+    font-family: 'latothin';
+    src: url('fonts/lato-thin-webfont.woff2') format('woff2'),
+         url('fonts/lato-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
-body
-{
-	background-color : #ecf0f1;
-	margin: 0;
-	padding: 0;
 }
+@font-face {
+    font-family: 'latoblack';
+    src: url('fonts/lato-black-webfont.woff2') format('woff2'),
+         url('fonts/lato-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
-.topRect {
-	border-spacing: 0;
-    background-color: #fafafa;
-	border-bottom: 1px solid #ebebeb;
-		border-bottom-width: 1px;
-		border-bottom-style: solid;
-		border-bottom-color: rgb(235, 235, 235);
-    height: 85px;
-    position: absolute;
+}
+@font-face {
+    font-family: 'latobold';
+    src: url('fonts/lato-bold-webfont.woff2') format('woff2'),
+         url('fonts/lato-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'latoitalic';
+    src: url('fonts/lato-italic-webfont.woff2') format('woff2'),
+         url('fonts/lato-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'latolight';
+    src: url('fonts/lato-light-webfont.woff2') format('woff2'),
+         url('fonts/lato-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{margin: 0px; padding: 0px;}
+ul {
+	font-family: latothin;
+	position: fixed;
+    top: 0;
     width: 100%;
-	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2980b9;
 }
 
-.name
-{
-	font-family : avenir, sans-serif;
-	color : #2980b9;
-	font-size : 2.3em;
-	text-align : center;
+li {
+    float: left;
 }
-.profil{
-	text-align: -webkit-center;
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
 }
-img.photo {
+
+li a:hover:not(.active) {
+	padding: 10px 30px;
+    background-color: #3498db;
+}
+
+.active {
+    background-color: #3498db;
+}
+.back{
 	position: relative;
-	top: 120px;
-    width: 200px;
-	height: 200px;
-	border-radius : 50%;
+	z-index: -1;
+	width: 100%;
+}
+input[type=text] {
+    width: 300px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+		display: block;
+    margin : 0 auto;
+	margin-top: -300px;
+}
+
+input[type=text]:focus {
+    width: 70%;
 }

@@ -1,0 +1,145 @@
+@font-face {
+	font-family: 'raleway';
+	src: url('fonts/raleway.eot');
+	src: local('☺'), url('fonts/raleway.woff') format('woff'), url('fonts/raleway.ttf') format('truetype'), url('fonts/raleway.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+div {
+    display: block;
+}
+
+body
+{
+	font-family : raleway;
+	background-color : #ecf0f1;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	position: absolute;
+	z-index: 1;
+	border-spacing: 0;
+    background-color: #fafafa;
+	border-bottom: 1px solid #ebebeb;
+		border-bottom-width: 1px;
+		border-bottom-style: solid;
+		border-bottom-color: rgb(235, 235, 235);
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	left:2.5%
+}
+
+.topRect {
+    height: 85px;
+	width: 95%;
+}
+
+.name
+{
+	color : #2980b9;
+	font-size : 2.3em;
+	text-align : center;
+}
+.profil{
+	text-align: -webkit-center;
+}
+
+img.back{
+	position: fixed;
+	width : 90%;
+	z-index: 0;
+	top: -100px;
+	left:5%;
+}
+
+img.photo {
+	z-index:4;
+	position: absolute;
+    top: 120px;
+    left: 50%;
+	margin-left: -100px;
+    width: 200px;
+	height: 200px;
+	border-radius : 50%;
+	border: 10px solid #3498db;
+}
+
+img.photo:hover {
+	z-index:4;
+	position: absolute;
+    top: 120px;
+    left: 50%;
+	margin-left: -100px;
+    width: 200px;
+	height: 200px;
+	border-radius : 50%;
+	border: 10px solid #2980b9;
+	box-shadow: 0 3px 3px rgba(0,0,0,0.30), 0 1px 2px rgba(0,0,0,0.28);
+}
+
+.presentation {
+    height: 800px;
+	width: 95%;
+	top: 400px;
+}
+
+.programmer {
+	position: absolute;
+	top: 320px;
+	left: 30%;
+	right: 30%;
+	z-index: 2;
+	font-size: 2em;
+	color: #fafafa;
+}
+
+.pres_text{
+	position: relative;
+	padding-left: 2%;
+	padding-right: 2%;
+	text-indent: 20px;
+	top: auto;
+	text-align: justify;
+	font-size: 1.3em;
+}
+
+.ribbon {
+		padding: .34em 1em;
+		margin: -10px;
+		margin-top: 40px;
+		font-size: 2em;
+		position:relative;
+		color: #ffffff;
+		text-align: center;
+		letter-spacing:0.1em;
+		text-shadow: 0px -1px 0px rgba(0,0,0,0.3);
+		box-shadow: inset 0px 1px 0px rgba(255,255,255,.3),
+					inset 0px 0px 20px rgba(0,0,0,0.1),
+					0px 1px 1px rgba(0,0,0,0.4);
+		 background: -webkit-linear-gradient(top,#3498db, #2980b9);
+      display: inline-block;
+	}
+
+.ribbon:before {
+	left:-1.35em;
+	border-right-width: .75em;
+	border-left-color:transparent;
+}
+
+	
+.content:before {
+	content:"";
+	bottom:-.5em;
+	position:absolute;
+	display:block;
+	border-style:solid;
+	border-color: #0675b3 transparent transparent transparent;
+	z-index:-2;
+}
+	
+.content:before {
+	left: 0;
+	border-width: .5em 0 0 .5em;
+}
