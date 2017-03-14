@@ -65,3 +65,12 @@ ul {
 	z-index: -1;
 	width: 100%;
 }
+
+p{
+	font-family: latoblack;
+	font-size: 25px;
+	left: 5%;
+	width: 90%;
+	position: relative;
+	top: -950px;
+}

@@ -65,10 +65,10 @@ input[type=text] {
 	background-size: 44px;
     background-color: white;
 	background-position: 100%;
-    padding: 12px 20px 12px 50px;
+    padding: 12px 20px 12px 30px;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.19);
 	display: block;
     margin : 0 auto;
 	height: 20px;
