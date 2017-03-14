@@ -48,17 +48,6 @@
 }
 
 body{margin: 0px; padding: 0px;}
-ul {
-	font-family: latothin;
-	position: fixed;
-    top: 0;
-    width: 100%;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #2980b9;
-}
 
 .back{
 	position: relative;
@@ -66,11 +55,19 @@ ul {
 	width: 100%;
 }
 
-p{
+.firstp{
+	position: absolute;
 	font-family: latoblack;
 	font-size: 25px;
 	left: 5%;
 	width: 90%;
-	position: relative;
-	top: -950px;
+	top: 300px;
+}
+p{
+	/* position: absolute; */
+	font-family: latoblack;
+	font-size: 25px;
+	left: 5%;
+	width: 90%;
+	top: 300px;
 }
