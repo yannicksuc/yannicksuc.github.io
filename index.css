@@ -1,73 +1,47 @@
 @font-face {
-    font-family: 'latoregular';
-    src: url('fonts/lato-regular-webfont.woff2') format('woff2'),
-         url('fonts/lato-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'latothin';
-    src: url('fonts/lato-thin-webfont.woff2') format('woff2'),
-         url('fonts/lato-thin-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'latoblack';
-    src: url('fonts/lato-black-webfont.woff2') format('woff2'),
-         url('fonts/lato-black-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'latobold';
-    src: url('fonts/lato-bold-webfont.woff2') format('woff2'),
-         url('fonts/lato-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'latoitalic';
-    src: url('fonts/lato-italic-webfont.woff2') format('woff2'),
-         url('fonts/lato-italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    font-family: 'latolight';
-    src: url('fonts/lato-light-webfont.woff2') format('woff2'),
-         url('fonts/lato-light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
+  font-family: 'Crush';
+  src: url('DKBrushCrush.eot?#iefix') format('embedded-opentype'),  url('DKBrushCrush.otf')  format('opentype'),
+	     url('DKBrushCrush.woff') format('woff'), url('DKBrushCrush.ttf')  format('truetype'), url('DKBrushCrush.svg#DKBrushCrush') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body{margin: 0px; padding: 0px;}
+
+p{
+	font-family: Crush;
+	top: 300px;
+	color: white;
+}
+
+#name{
+	text-shadow: 2px 2px 2px #222222;
+	position: absolute;
+	top: 180px;
+	left: 100px;
+	font-size: 80px;
+}
+
+#slogan{
+	text-shadow: 2px 2px 2px #222222;
+	color: #AAAAAA;
+	position: absolute;
+	top: 320px;
+	left: 110px;
+	font-size: 37.7px;
+}
 
 .back{
 	position: relative;
 	z-index: -1;
 	width: 100%;
+	top: -100px;
 }
 
-.firstp{
-	position: absolute;
-	font-family: latoblack;
-	font-size: 25px;
-	left: 5%;
-	width: 90%;
-	top: 300px;
-}
-p{
-	/* position: absolute; */
-	font-family: latoblack;
-	font-size: 25px;
-	left: 5%;
-	width: 90%;
-	top: 300px;
+img{
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
